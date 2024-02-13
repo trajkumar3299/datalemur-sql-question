@@ -1,3 +1,5 @@
+-- Below code helps analyze the distribution of users based on the number of tweets they made in the year 2022. The CTE calculates the count of tweets per user, and the main query groups users by the count of tweets, providing a summary of the tweet distribution across users.
+
 -- Solution-1
 with cte AS(
 SELECT 
